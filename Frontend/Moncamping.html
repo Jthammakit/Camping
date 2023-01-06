@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Camping@NST</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="/Backend/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://i.pinimg.com/originals/04/6f/f0/046ff02077c375a11c0bd2d38fd0abd2.png" type="image/icon type">
+  </head>
+
+
+<body class="bgmon">
+  <!-- navbar zone --> 
+  <div class="bg-black" style="z-index: -1;"></div>
+  <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgba(0, 0, 0, 0.668); opacity:90% ">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="index.html" style="font-weight: bolder;color: white;margin-left: 25px;"><img src="https://i.pinimg.com/originals/04/6f/f0/046ff02077c375a11c0bd2d38fd0abd2.png" alt="" height="40px" width="40px"> Camping@NST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 center">
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Camping Place
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Lyn Resort.html">Copter Chill Resort</a></li>
+              <li><a class="dropdown-item" href="Rivercamp.html">4015 River Camp</a></li>
+              <li><a class="dropdown-item" href="Tentriver.html">Waterfront Tent, Baan Khiri Wong</a></li>
+              <li><a class="dropdown-item" href="Moncamping.html">MonHouse Camping</a></li>
+              <li><a class="dropdown-item" href="Zero.html">Khao Soon Camping </a></li>
+            </ul>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;" onclick="contact01()">Contact</a>
+          </li>
+        </div>
+        </ul>
+        <form class="d-flex" role="search">
+          <a href="login.html"  rel="noopener noreferrer"><button type="button" class="btn btn-secondary" style="margin-left: -100px;" ><i class="fa-solid fa-user"></i>&nbsp; Admin </button></a>
+
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-tent"></i>&nbsp; Your Camping</button>&nbsp;
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Booking Now!!
+          </button>
+        
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar zone -->
+
+  
+  <div class="container-fluid row" >
+      <div class="col-6">
+            <div class="container-fluid" style="padding-top: 100px;">
+            <span style="color: white;font-weight: bolder;font-size: 50px;margin-left: 40px;"> &nbsp;MonHouse Camping&nbsp;&nbsp;</span><br>
+            </div>
+            <div style="padding-top: 45px;width: 800px; margin-left: 50px; width: 80%;" >
+                <p style="color: white;font-weight: lighter;font-size: 16px;"">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baan Mon Camping Waterfront camping accommodation surrounded by nature Wake up early to see the sea of mist. We are going to take friends to visit, which is located on Khao Ram Rome. in Ron Phibun District Nakhon Si Thammarat
+                </p>
+            </div>
+            <div class="container-fluid" style="padding-top: 30px;margin-left: 30px;">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=8.2210657467193%2C99.82285161037&fbclid=IwAR0vVKSxV52xovAdWQwj1WfCfcPFWI5its5gHiKL7lsFqowwL5mTDl-KH5I" target="_blank"><button  type="button" id="button" class="btn" style="background-color: white;border-radius: 60px;opacity: 90%;margin-left: 40px;"> <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp; Location</button></a>
+            <button onclick="infolyn()" type="button" id="button" class="btn" style="background-color: white;border-radius: 60px;opacity: 90%;margin-left: 40px;"><i class="fa-solid fa-circle-info"></i>&nbsp; More info</button>
+            </div>
+        </div>
+        <div class="col-6" >
+        </div>
+        <div class="container-fluid left" style="padding-top: 60px;">
+            <span style="color: whitesmoke;font-weight: bold;font-size: 20px;margin-left: 30px;">Hightlight</span><br><br>
+
+            <div class="container2" style="margin-left: 30px;">
+              <img  class="bg-image2" style="border-radius: 30px;" src="https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.6435-9/58689432_327603754622998_7126228287486951424_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeErnRNzoKNi6nuYgy4bSa_I-Hi3t9wH3-X4eLe33Aff5RdYBQEtVvPPFUmSt7CulXlzfkg51NKCr2kYXXTFar0I&_nc_ohc=dl6SU0BGu7IAX9CpznI&_nc_ht=scontent.fbkk5-3.fna&oh=00_AfCFsbba94B4LlSOYivqX26YTf1ck9kVTryA-P11iyVkEA&oe=63DD17FB" alt="Avatar" height="200px" width="300px">
+              <div class="overlay2" style="border-radius: 0px 0px  30px ;">Lamp</div>
+            </div>
+            <div class="container2" style="margin-left: 360px; margin-top: -200px;">
+              <img  class="bg-image2" style="border-radius: 30px;" src="https://scontent.fbkk5-8.fna.fbcdn.net/v/t1.6435-9/59500992_327603937956313_8672432761908232192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH2O6_H9FjxDCYbEmJV2VCBfOvt5EJpoO986-3kQmmg7wQBJ0qYRR8Fw6IVn67giAxOkCYH5saVs6X3DXJBrRkd&_nc_ohc=N13Ud_GkzCAAX_IEW1R&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfBpkrHrFIjCNj4bliOFNU7xpG357nFzq8x0ym2Cgz1-LA&oe=63DD1341" alt="Avatar" height="200px" width="300px">
+              <div class="overlay2" style="border-radius: 0px 0px  30px 30px;">Bicycle</div>
+            </div>
+            <div class="container2" style="margin-left: 690px; margin-top: -200px;">
+              <img  class="bg-image2" style="border-radius: 30px;" src="https://scontent.fbkk5-8.fna.fbcdn.net/v/t1.6435-9/58625841_327603771289663_7950913474912059392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF4W-qfU4sjKTZXmbEBq2ijYqE4KGoTvJVioTgoahO8lSxDAdLtgTJW-JwTPEU0lrP-aQwM9efw7RqG6GSMy2rm&_nc_ohc=IpunuNVv8bwAX-NGV4e&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfCrCq3qjlS4CqOXJqZniLunBfWu2T9Vq6Jjq-nwzhYD8A&oe=63DCFA47" alt="Avatar" height="200px" width="300px">
+              <div class="overlay2" style="border-radius: 0px 0px  30px 30px;">Atmosphere</div>
+            </div>
+            <div class="container2" style="margin-left: 1020px; margin-top: -200px;">
+              <img  class="bg-image2" style="border-radius: 30px;" src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.6435-9/58590378_327603881289652_8568566485457305600_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGS8VCdFs3nogQtG9pC86TnBUXqCIZwXrUFReoIhnBetRso27TKv7paZRc6N9IUuPkhtq8yinzVyohVYS54I47w&_nc_ohc=CqlHIDp0F5QAX8xJfwc&_nc_ht=scontent.fbkk5-7.fna&oh=00_AfC8OoB-HYtO3iYg_BCcgglABE852AxexrRJe_uQmE-pCw&oe=63DD1831" alt="Avatar" height="200px" width="300px">
+              <div class="overlay2" style="border-radius: 0px 0px  30px 30px;">Tent</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">MonHouse Camping</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <fieldset disabled>
+                        <div class="container-fluid">
+                            <label for="MonHouse_Camping" class="form-label">Place </label>
+                            <input type="text" id="place" class="form-control" value="MonHouse Camping" placeholder="MonHouse Camping">
+                        </div><br>
+                    </fieldset><hr>
+                    <fieldset>
+                        <div class="container-fluid">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="visitor_name" class="form-control" placeholder="Write Your name"  required>
+                        </div>
+                        <br>
+                        <div class="container-fluid">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="text" id="phonenumber" name="phone_number" class="form-control" placeholder="Write Your Phone_number" required>
+                        </div>
+                    </fieldset><hr>
+                <fieldset>
+                    <div class="container row">
+                    <div class="col-6">
+                      <label for="adults" class="form-label">Adults</label>
+                      <input type="number" class="form-control" id="adults" required value="1">
+                    </div>
+                    <div class="col-6">
+                      <label for="children" class="form-label">Children(Lower 15)</label>
+                      <input type="number" class="form-control" id="children" required value="0">
+                    </div><br>
+                    <div class="col-6">
+                        <label for="datecome" class="form-label">Check-in Date</label>
+                        <input type="date" class="form-control" id="datecome" required>
+                    </div>
+                    <div class="col-6">
+                        <label for="dateback" class="form-label">Check-out Date</label>
+                        <input type="date" class="form-control" id="dateback" required>
+                    </div>
+                    <div class="container">
+                      <br>
+                        <label for="room-selection">Select Camp Preference</label>
+                        <select style="height: 37px;border-radius: 5px;border: 1px rgb(211, 211, 211) solid;" id="room-selection" name="camp_preference" required>
+                            <option value="">Choose prepared from the List</option>
+                            <option value="connecting">Own Camping</option>
+                            <option value="adjoining">Camping of Resort</option>
+                            <option value="adjacent">Hotel</option>
+                        </select>
+                    </div>
+                </fieldset>
+                  </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-success" onclick="btn_add_click()">Booking!!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style="color: white;background-color: black;opacity: 90%;;height: 150px;width: auto;">
+      <br>
+      <center><div style="margin-top: 40px; font-size: 14px;  "> Copyright © 2023  NSTCamping.com Travel Nakhonsithammarat Pte. Ltd.  สงวนลิขสิทธิ์ตามกฎหมาย <br> ผู้ดำเนินการเว็บไซต์: NSTCamping.com Travel Nakhonsithammarat Pte. Ltd.</center></div>
+    </div> 
+
+
+
+
+</body>
+</html>

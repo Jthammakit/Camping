@@ -1,0 +1,146 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.bg-black {
+    background: black;
+    opacity: 60%;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.bg-black01 {
+    background: black;
+    opacity: 30%;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.bg-blackindex {
+    background: black;
+    opacity: 20%;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    margin: auto;  
+    width: 50%;   
+ }
+
+.bgindex{
+    background-image: url('https://storage.findtrip.me/images/20211216142410.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bglyn{
+    background-image: url('https://nakhonsidee.com//pic/181/35.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.bgmon{
+    background-image: url('https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.6435-9/59461751_327603981289642_6919806017437958144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE-pxAg2oS4tKBJofcLL1qQ1IJmy01CKLHUgmbLTUIosXrctUzet9uXG_P_Z6O7cm2rrPU7l8ISsfUoj5p4xQC_&_nc_ohc=zD3YIGL_X3QAX-MAGF1&_nc_ht=scontent.fbkk5-7.fna&oh=00_AfCeZ8lx45muFStNyoOl2y67FF4UukvGT_83PLgcwfJugA&oe=63DD0B1C');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgriver{
+    background-image: url('https://nakhonsidee.com//pic/475/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bgtentriver{
+    background-image: url('http://paikondieow.com/wp-content/uploads/2018/05/20-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.bgzero22o{
+    background-image: url('https://static.thairath.co.th/media/HCtHFA7ele6Q2dULVnV0kVAE8XvK9sFSWIIq9kdcesJ5XjuwK1vAC5Ilay586tK77j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.bg-image1 {
+    height: 200px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image1:hover  {
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+
+* {box-sizing: border-box;}
+.container2 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+
+
+
+  
+.img1 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Baanmon_02.jpg"); }
+.img2 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_03.jpg"); }
+.img3 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_01.jpg"); }
+.img4 { background-image: url("https://ak-d.tripcdn.com/images/1i61u2215bdy83weo4F5A.jpg?proc=source/trip"); }
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,14 @@
+{
+    "usercamp" :[
+        {
+            "place" :"Lyn&Copter Chill Camping",
+            "name" :"thammakit",
+            "phonenumber" : "09523423423",
+            "adults" : "2",
+            "children": "0",
+            "datecome" : "19/1/2002",
+            "dateback": "20/1/2002",
+            "room-selection" : "Camping of Resort"
+        }
+    ]
+}
